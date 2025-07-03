@@ -15,10 +15,10 @@ contentDir = 'content/ko'
 
 [params.author]
   name = "이준영 세무회계 사무소"
-  headline = "사업자들이 꼭 알아야하는 쉽고 명쾌한 세무 정보"
+  headline = "사업자들이 꼭 알아야하는 쉽고 명쾌한 세금 정보"
   bio = "A little bit about you"
-   links = [
-     { link = "https://nunocoracao.github.io/blowfish/" },
-     { github = "https://github.com/nunocoracao/blowfish" },
-     { x-twitter = "https://twitter.com/burufugu" }
-   ]
+#   links = [
+#     { link = "https://nunocoracao.github.io/blowfish/" },
+#     { github = "https://github.com/nunocoracao/blowfish" },
+#     { x-twitter = "https://twitter.com/burufugu" }
+#   ]
