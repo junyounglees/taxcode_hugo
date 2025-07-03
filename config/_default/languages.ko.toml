@@ -9,13 +9,13 @@ contentDir = 'content/ko'
   isoCode = "ko"
   rtl = false
   # logo = "img/logo.png"
-  description = "My awesome website"
+  description = "Taxcode website"
   # copyright = "Copy, _right?_ :thinking_face:"
-  dateFormat = "2 January 2006"
+  dateFormat = "2006년 1월 2일"
 
 [params.author]
   name = "이준영 세무회계 사무소"
-  headline = "This is my very simple profile website with my links"
+  headline = "사업자들이 꼭 알아야하는 쉽고 명쾌한 세무 정보"
   bio = "A little bit about you"
    links = [
      { link = "https://nunocoracao.github.io/blowfish/" },

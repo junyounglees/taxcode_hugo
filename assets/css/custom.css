@@ -1,0 +1,22 @@
+/* Custom spacing for homepage author section */
+
+/* Add more space between author name and headline */
+.author-name {
+  margin-bottom: 1rem !important; /* Adjust this value: 0.5rem, 1rem, 1.5rem, 2rem */
+}
+
+/* Alternative targeting if the above doesn't work */
+.home-profile .author-title {
+  margin-bottom: 1rem !important;
+}
+
+/* More specific targeting for Blowfish theme */
+.prose .author-name,
+.prose h1.author-name {
+  margin-bottom: 1rem !important;
+}
+
+/* Target the headline specifically */
+.author-headline {
+  margin-top: 1rem !important;
+}
