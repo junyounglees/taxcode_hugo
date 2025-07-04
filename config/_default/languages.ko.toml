@@ -14,7 +14,7 @@ contentDir = 'content/ko'
   dateFormat = "2006년 1월 2일"
 
 [params.author]
-  name = "이준영 세무사"
+  name = "택스코드"
   image = "img/avatar.png"
   headline = "사업자가 꼭 알아야하는 스마트한 세금 정보"
   bio = "A little bit about you"
