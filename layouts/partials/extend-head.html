@@ -1,3 +1,6 @@
+<!-- Content Security Policy to allow necessary JavaScript -->
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline'; object-src 'none';">
+
 <!-- Custom CSS for homepage spacing -->
 {{ $css := resources.Get "css/custom.css" }}
 {{ if $css }}

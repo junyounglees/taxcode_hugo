@@ -13,6 +13,10 @@ enableSearch = true
 enableCodeCopy = true
 disableImageZoom = true
 
+# Disable features that might use eval() to avoid CSP violations
+enableViews = false
+enableLikes = false
+
 mainSections = ["posts"]
 # robots = ""
 
