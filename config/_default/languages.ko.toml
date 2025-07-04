@@ -5,6 +5,7 @@ title = "택스코드"
 contentDir = 'content/ko'
 
 [params]
+  subtitle = "사업자가 꼭 알아야하는 스마트한 세금 정보"
   displayName = "Korean"
   isoCode = "ko"
   rtl = false
@@ -15,8 +16,8 @@ contentDir = 'content/ko'
 
 [params.author]
   name = "이준영 세무사"
-  image = "img/avatar.png"
-  headline = "사업자가 꼭 알아야하는 스마트한 세금 정보2"
+  # image = "img/avatar.png"
+  headline = ""
   bio = "A little bit about you"
 #   links = [
 #     { link = "https://nunocoracao.github.io/blowfish/" },

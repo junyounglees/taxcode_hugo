@@ -26,7 +26,7 @@
     <h1 class="text-4xl font-extrabold mb-4">
       {{ .Site.Title | default .Site.Params.Author.name }}
     </h1>
-    {{ with .Site.Params.Author.headline }}
+    {{ with .Site.Params.subtitle | default .Site.Params.Author.headline }}
       <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
         {{ . | markdownify }}
       </h2>
