@@ -11,6 +11,7 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+disableImageZoom = true
 
 mainSections = ["posts"]
 # robots = ""
