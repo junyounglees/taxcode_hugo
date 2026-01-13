@@ -63,7 +63,7 @@ function KakaoIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export const metadata: Metadata = {
   title: '소개',
   description:
-    '공학 출신 세무사 이준영입니다. AI와 자동화 기술로 더 정확하고 효율적인 세무 서비스를 제공합니다.',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 }
 
 export default function About() {
@@ -74,7 +74,7 @@ export default function About() {
           <div className="max-w-xs px-2.5 lg:max-w-none">
             <Image
               src={portraitImage}
-              alt="이준영 세무사"
+              alt="세무사 프로필"
               sizes="(min-width: 1024px) 32rem, 20rem"
               className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
             />
@@ -84,25 +84,25 @@ export default function About() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             안녕하세요,
             <br />
-            <span className="text-teal-500">이준영 세무사</span>입니다.
+            <span className="text-teal-500">[세무사 이름]</span>입니다.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              부산대학교에서 컴퓨터공학을 전공하고, 엔지니어로 일하다가
-              세무사의 길로 들어서게 되었습니다. 기술과 세무, 두 가지 전문성을
-              결합해 고객님께 더 나은 서비스를 제공하고자 합니다.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris.
             </p>
             <p>
-              엔지니어 시절 배운 것은 &ldquo;문제를 해결하는 방법&rdquo;입니다.
-              복잡한 시스템을 분석하고, 최적의 해결책을 찾아내는 과정은
-              세무 업무와 놀라울 정도로 비슷합니다. 복잡한 세법 속에서
-              고객님께 가장 유리한 방향을 찾아드립니다.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
             </p>
             <p>
-              특히 AI와 자동화 기술을 활용해 반복적인 업무는 시스템에 맡기고,
-              절세 전략 수립과 세무 컨설팅에 더 많은 시간을 투자합니다.
-              덕분에 더 정확하고, 더 빠르며, 더 합리적인 비용으로
-              서비스를 제공할 수 있습니다.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
             </p>
             <p>
               세금은 어렵고 복잡해 보이지만, 제대로 알면 절세의 기회가 됩니다.
@@ -120,11 +120,11 @@ export default function About() {
               카카오톡 상담
             </SocialLink>
             <SocialLink
-              href="mailto:tax@taxcode.co.kr"
+              href="mailto:email@example.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              tax@taxcode.co.kr
+              email@example.com
             </SocialLink>
           </ul>
         </div>

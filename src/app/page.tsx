@@ -129,12 +129,12 @@ function Credentials() {
     {
       title: '세무사',
       organization: '한국세무사회',
-      year: '2024',
+      year: 'YYYY',
     },
     {
-      title: '공학사 (컴퓨터공학)',
-      organization: '부산대학교',
-      year: '2019',
+      title: 'Lorem Ipsum',
+      organization: 'Dolor Sit Amet',
+      year: 'YYYY',
     },
   ]
 
@@ -218,23 +218,23 @@ function Services() {
 function Features() {
   const features = [
     {
-      title: 'AI 기반 절세 분석',
-      description: '인공지능이 고객님의 재무 데이터를 분석하여 최적의 절세 방안을 제시합니다.',
+      title: 'Lorem Ipsum',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.',
     },
     {
-      title: '실시간 세무 현황',
-      description: '대시보드에서 세금 신고 현황과 납부 일정을 한눈에 확인하세요.',
+      title: 'Dolor Sit Amet',
+      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     },
     {
-      title: '빠른 응답',
-      description: '카카오톡, 이메일 등 다양한 채널로 24시간 내 답변 드립니다.',
+      title: 'Consectetur',
+      description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.',
     },
   ]
 
   return (
     <div className="mt-16 sm:mt-20">
       <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
-        왜 이준영 세무사인가요?
+        왜 [세무사 이름]인가요?
       </h2>
       <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
         {features.map((feature) => (
@@ -263,13 +263,13 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            공학 출신 세무사의
+            신뢰할 수 있는
             <br />
-            <span className="text-teal-500">스마트한 세무 서비스</span>
+            <span className="text-teal-500">세무 파트너</span>
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            안녕하세요, 이준영 세무사입니다. 컴퓨터공학을 전공한 엔지니어 출신으로,
-            AI와 자동화 기술을 활용해 더 정확하고 효율적인 세무 서비스를 제공합니다.
+            안녕하세요, [세무사 이름]입니다. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
             복잡한 세금 문제, 함께 해결해 드리겠습니다.
           </p>
           <div className="mt-6 flex gap-4">

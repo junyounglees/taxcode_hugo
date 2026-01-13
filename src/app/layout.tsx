@@ -7,12 +7,12 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - 이준영 세무사',
-    default: '이준영 세무사 | AI 기반 스마트 세무 서비스',
+    template: '%s - [세무사 이름]',
+    default: '[세무사 이름] | 신뢰할 수 있는 세무 파트너',
   },
   description:
-    '공학 출신 세무사가 제공하는 AI 기반 스마트 세무 서비스. 종합소득세, 법인세, 부가가치세 신고부터 절세 컨설팅까지. 무료 상담 신청하세요.',
-  keywords: ['세무사', '종합소득세', '법인세', '부가가치세', '절세', 'AI세무', '세무상담'],
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. 종합소득세, 법인세, 부가가치세 신고부터 절세 컨설팅까지. 무료 상담 신청하세요.',
+  keywords: ['세무사', '종합소득세', '법인세', '부가가치세', '절세', '세무상담'],
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
