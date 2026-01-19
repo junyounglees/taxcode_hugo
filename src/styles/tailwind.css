@@ -7,6 +7,10 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  /* JetBrains Mono as default mono font */
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* Typography scale */
   --text-xs: 0.8125rem;
   --text-xs--line-height: 1.5rem;
   --text-sm: 0.875rem;
@@ -33,4 +37,8 @@
   --text-8xl--line-height: 1;
   --text-9xl: 8rem;
   --text-9xl--line-height: 1;
+
+  /* Vercel-style border radius */
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
 }

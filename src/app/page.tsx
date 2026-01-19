@@ -74,7 +74,7 @@ function ConsultationForm() {
   return (
     <form
       action="/thank-you"
-      className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+      className="rounded-xl border border-zinc-200 p-6 dark:border-zinc-800"
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <PhoneIcon className="h-6 w-6 flex-none" />
@@ -139,7 +139,7 @@ function Credentials() {
   ]
 
   return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+    <div className="rounded-xl border border-zinc-200 p-6 dark:border-zinc-800">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">자격 및 학력</span>
@@ -200,7 +200,7 @@ function Services() {
         {services.map((service) => (
           <div
             key={service.title}
-            className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+            className="rounded-xl border border-zinc-200 p-6 dark:border-zinc-800"
           >
             <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
               {service.title}
@@ -292,7 +292,7 @@ export default async function Home() {
                 <Article key={article.slug} article={article} />
               ))
             ) : (
-              <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+              <div className="rounded-xl border border-zinc-200 p-6 dark:border-zinc-800">
                 <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
                   세무 정보 블로그
                 </h2>

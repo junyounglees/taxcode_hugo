@@ -1,9 +1,16 @@
 import { type Metadata } from 'next'
+import { JetBrains_Mono } from 'next/font/google'
 
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 
 import '@/styles/tailwind.css'
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-jetbrains-mono',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: {
@@ -26,8 +33,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ko" className="h-full antialiased" suppressHydrationWarning>
-      <body className="flex h-full bg-zinc-50 dark:bg-black">
+    <html lang="ko" className={`h-full antialiased ${jetbrainsMono.variable}`} suppressHydrationWarning>
+      <body className="flex h-full bg-white font-mono dark:bg-zinc-950">
         <Providers>
           <div className="flex w-full">
             <Layout>{children}</Layout>
